@@ -1,0 +1,51 @@
+.span-question {
+  cursor: pointer;
+  margin-left: 10px;
+  color: #cf0000;
+  transition: color 0.3s ease-in-out;
+}
+
+.span-question:hover {
+  color: #6c757d;
+}
+
+
+
+.fa-check {
+  color: #0b6a13;
+}
+
+span.delete:hover {
+  color: #6c757d;
+}
+
+
+
+/* Ajoutez ce style pour éliminer le bleu de Bootstrap au survol */
+.red-hover:hover,
+.red-hover:active,
+.red-hover:focus,
+.red-hover:active:focus {
+border-color:  #cf0000 !important;
+box-shadow: none !important;
+outline: none !important;
+background-color: transparent !important;
+color:  #cf0000 !important;
+}
+
+/* Ajoutez ce style pour éliminer la couleur bleue de Bootstrap des selects */
+.red-hover.selectpicker:hover,
+.red-hover.selectpicker:active,
+.red-hover.selectpicker:focus,
+.red-hover.selectpicker:active:focus {
+border-color: #cf0000 !important;
+box-shadow: none !important;
+outline: none !important;
+background-color: transparent !important;
+color:  #cf0000 !important;
+}
+
+select option {
+color: black;
+background-color: white;
+}

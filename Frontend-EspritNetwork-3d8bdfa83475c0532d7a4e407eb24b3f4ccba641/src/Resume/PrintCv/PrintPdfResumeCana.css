@@ -1,0 +1,131 @@
+/* PrintPdfResumeCana.css */
+
+.custom-cv-container-canadian {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  width: 220mm;
+  height: 296mm;
+  padding: 0; 
+  box-shadow: #00000059 0px 5px 15px;
+  display: flex;
+  
+}
+
+
+.custom-cv-main-section-canadian:hover {
+  filter: blur(1px);
+}
+
+.canadien {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.section-title-canadian {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+
+.info-header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.position-canadian {
+  margin-left: 300px;
+  margin-top: -37px;
+}
+
+
+
+.full-name-canadian{
+  font-size:25px;
+
+}
+
+
+.job-date-canadian {
+  color: #555;
+}
+
+.job-title-canadian,
+.degree-canadian {
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 1px;
+  
+}
+
+.company-name-canadian,
+.school-name-canadian {
+  color: #555;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.experience-description-canadian {
+  color: #333;
+}
+
+.hr-canad {
+  border: none;
+  border-top: 1px solid #000000;
+  margin-top: 0px;
+
+}
+
+.contact-info-canadian {
+  display: flex;
+  align-items: center;
+
+}
+.info-container {
+  margin-left: 20px;
+}
+.contact-icon-canadian{
+   margin-right: 10px;
+}
+
+
+/*plice boutton*/
+
+.font-size-button {
+  background-color: #eeeeee;
+  color: #000000;
+  border: none;
+  padding: 9px 16px;
+  border-radius: 30%;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 150px;
+}
+
+.font-size-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.increase {
+  margin-right: 5px;
+  margin-top: 10px;
+
+}
+
+.decrease {
+  margin-left: 5px;
+  margin-top: 10px;
+
+}
+.police-label{
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 6px;
+  
+}

@@ -1,0 +1,141 @@
+/* Navbar Resume  */
+.nav-menu {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px #0707072c;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+  min-width: 300px; 
+}
+
+.nav-menu ul {
+  list-style: none;
+  padding: 0;
+  align-items: flex-start; 
+}
+
+.nav-menu li {
+  margin-bottom: 10px; 
+  
+}
+.nav-menu a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px; 
+  border-left: 5px solid transparent;
+}
+
+.nav-menu a:hover {
+  border-left-color: #000000;
+  
+}
+.nav-menu a i {
+  margin-right: 10px; 
+  font-size: 18px;
+}
+
+.nav-menu .navbar-nav {
+  display: flex;
+}
+
+.nav-menu .navbar-toggler {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .nav-menu .navbar-toggler {
+    display: block;
+
+  }
+  .nav-menu .navbar-nav {
+    display: none;
+  }
+
+  .nav-menu .navbar-nav.show {
+    display: flex;
+    
+  }
+
+}
+
+/* Affiche Resume  */
+
+.n-title {
+    font-size: 17px; 
+    color: #CF0000; 
+    font-weight: bold;
+  
+  }
+  
+  .red-hr {
+    border-color: #CF0000;
+    border-width: 3px;
+  
+  }
+  
+  .contact {
+    padding-top: 7px;
+    padding-bottom: 0px;
+  }
+  
+
+/*print button*/
+.print-buttonresume {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 17px;
+}
+
+.print-buttonresume:hover {
+  background-color: #b91c1c;
+}
+
+/*container */
+.resume {
+  padding: 0;
+  width: 945px;
+  margin-bottom: 70px;
+  margin-left: 20px;
+}
+
+.switch-button {
+  display: inline-block;
+  padding: 10px 12px;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 70px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  animation: pulse 1s infinite alternate;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+
+.card-headercorrect {
+  background-color: #050505;
+  color: white;
+  height: 40px;
+  padding: 8px;
+  font-weight: bold;
+}
+.masq{
+  padding: 8px;
+  font-weight: bold;
+}

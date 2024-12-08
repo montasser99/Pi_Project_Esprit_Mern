@@ -1,0 +1,53 @@
+.chatbot-circle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #080808;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    animation: conversation 0.5s ease infinite; 
+
+  }
+  
+  .chatbot-window {
+    position: fixed;
+    bottom: 10px;
+    right: 100px;
+    width: 500px;
+    height: 600px;
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #2727271a;
+    z-index: 9999;
+  }
+
+
+
+  @keyframes conversation {
+    0% {
+      transform: translateZ(0) scale(1); 
+    }
+    50% {
+      transform: translateZ(-10px) scale(1.1); 
+    }
+    100% {
+      transform: translateZ(0) scale(1); 
+    }
+  }
+
+  .conversation-indicator {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background-color: rgb(3, 123, 19); 
+    border-radius: 50%; 
+    top: 40px; 
+    right: -5px;
+  }

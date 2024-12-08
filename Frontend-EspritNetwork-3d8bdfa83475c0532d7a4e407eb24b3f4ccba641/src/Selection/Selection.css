@@ -1,0 +1,478 @@
+#main {
+  position: relative;
+}
+
+#hero {
+  position: relative;
+  top: -20px; /* Ajustez la valeur négative selon vos besoins */
+}
+
+#filter {
+  position: relative;
+  
+  top: -500px; /* Ajustez la valeur négative selon vos besoins */
+}
+
+#candidates {
+  position: relative;
+  /* top: -650px; */
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar select {
+  margin-left: 10px; 
+}
+
+.search-bar button {
+  margin-left: 10px; 
+}
+
+.no-margin {
+  margin-bottom: 0;
+}
+.grey-link {
+  color: grey;
+  text-decoration: underline;
+  font-size: 14px;
+}
+.grey-link:hover {
+  color: grey;
+  text-decoration: underline;
+}
+.icon-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: red;
+}
+.image-container {
+  position: relative;
+}
+
+
+/*title of page */
+
+.title {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* margin-bottom: 20px; */
+  padding-bottom: 20px;
+  position: relative;
+  color: #2c2c2c;
+}
+
+.title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #cf0000;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+#main {
+  position: relative;
+}
+
+#hero {
+  position: relative;
+}
+
+#filter {
+  position: relative;
+  
+  top: -500px; /* Ajustez la valeur négative selon vos besoins */
+}
+
+#candidates {
+  position: relative;
+
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar select {
+  margin-left: 10px; 
+}
+
+.search-bar button {
+  margin-left: 10px; 
+}
+
+.no-margin {
+  margin-bottom: 0;
+}
+.grey-link {
+  color: grey;
+  text-decoration: underline;
+  font-size: 14px;
+}
+.grey-link:hover {
+  color: grey;
+  text-decoration: underline;
+}
+.icon-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: red;
+}
+.image-container {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  color: gold; /* Adjust the color of the icon */
+  font-size: 24px; /* Adjust the size of the icon */
+  z-index: 1; /* Ensure the icon appears above the image */
+}
+
+
+
+.card-with-background {
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-white {
+  background-color: white;
+}
+.card {
+  border: 1px solid #ccc; /* Bordure grise */
+  border-radius: 3px; /* Coins arrondis */
+  width: 100%; /* Carte prend 100% de la largeur */
+  margin-bottom: 20px; /* Ajouter un espacement en bas entre les cartes */
+  
+}
+
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 30px; /* Augmentez la taille de l'icône */
+  color: rgb(180, 12, 12);
+  width: 40px; /* Définissez la largeur */
+  height: 40px; /* Définissez la hauteur */
+  display: flex; /* Permet de centrer l'icône */
+  justify-content: center; /* Permet de centrer l'icône */
+  align-items: center; /* Permet de centrer l'icône */
+  border-radius: 5px; /* Rend l'icône carrée */
+  background-color: rgba(180, 12, 12, 0.2); /* Couleur de fond rouge avec une certaine transparence */
+}
+
+.close-icon:hover {
+  background-color: rgba(180, 12, 12, 0.4); /* Changement de couleur de fond au survol */
+}
+
+.close-icon:focus {
+  outline: none; /* Supprime la bordure de focus par défaut */
+}
+
+.close-icon:before {
+  content: '\00d7';
+}
+
+.candidate-card {
+  position: relative;
+}
+
+.candidate-card .card-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 50%;
+}
+.trash-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 1.5em;
+}
+
+#team .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -15px;
+}
+
+#team .col-lg-4 {
+  width: calc(33.33% - 30px);
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.candidate-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.popup {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 4vw;
+  width: 60%;
+  height: 82%;
+  max-width: 190vw;
+  max-height: 190vh;
+  overflow: auto;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  background-image: url("../../public/assets/img/team/pxfuel.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 2;
+  border-top: 2px solid rgb(198, 1, 1);
+  border-bottom: 2px solid rgb(198, 1, 1);
+}
+
+
+
+.collection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Les collections s'adaptent en fonction de l'espace disponible */
+  grid-gap: 20px; /* Espacement entre les collections */
+}
+
+.collection-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 250px; /* Hauteur fixe pour chaque collection */
+  width: 100%; /* Largeur ajustée selon votre préférence */
+  border: 2px solid #070707;
+}
+
+.collection-icon {
+  width: 150px; /* Ajustez la taille de l'icône de collection selon vos besoins */
+  height: 150px;
+  object-fit: cover; /* Ajustement de l'image pour remplir l'espace */
+  border-radius: 50%; /* Rend l'image ronde */
+}
+
+.collection-title {
+  margin-top: 10px; /* Espacement entre le titre et l'icône */
+}
+
+.popup h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.popup ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.popup li {
+  margin-bottom: 10px;
+  font-size: 16px;
+ 
+}
+
+/*.collection-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+}*/
+.collection-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.collection-list li {
+  display: flex;
+  align-items: center;
+}
+
+.collection-title {
+  flex-grow: 1;
+}
+
+.add-icon {
+  display: inline-block;
+  font-weight: bold;
+  border: 2px solid #000;
+  border-radius: 60%;
+  padding: 4px;
+  margin-left: 5px;
+  line-height: 1;
+  font-size: 10px;
+  transition: background-color 0.3s ease;
+}
+.add-icon:hover {
+  background-color: #000; 
+  color: #fff; 
+}
+.search-wrapper {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.alignement{
+  display: grid;
+  grid-template-columns: auto auto; 
+  align-items: center; 
+  gap: 2px; 
+  margin-left: 2px;
+  
+}
+.alignement h4 {
+  margin: 0; 
+  margin-right: 2px;
+}
+
+.error-messagesalah {
+  color: red;
+}
+
+
+.custom-icon {
+  font-size: 1.1em; /* Ajustez la taille de police selon vos besoins */
+}
+
+.empty-collection {
+  font-weight: bold;
+  
+}
+
+
+.empty-collection-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.align-right {
+  float: right;
+}
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Thème sombre */
+.dark {
+  background-color: #191919;
+  color: #ffffff;
+}
+.dark .title h2 {
+  color: #ffffff;
+
+}
+.icon-lg {
+  font-size: 36px;
+}
+.icon-containersalah {
+  position: fixed;
+  top: 120px;
+  right: 20px;
+}
+
+body.dark-mode .icon-container i {
+  color: white; /* Couleur de l'icône en mode sombre */
+}
+
+body:not(.dark-mode) .icon-container i {
+  color: black; /* Couleur de l'icône en mode clair */
+}
+.table-avatar {
+  width:120px; 
+  height: auto; 
+}
+
+
+.footer {
+  position: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ebeced;
+  padding: 20px;
+  text-align: center;
+  z-index: 1000; /* Assurez-vous que le footer est au-dessus des autres éléments */
+}
+
+.activity-list {
+  margin-top: 10px;
+}
+
+.custom-form {
+  max-width: 800px; /* Définissez la largeur souhaitée */
+  margin: 0 auto; /* Centrez le formulaire horizontalement */
+}
+
+

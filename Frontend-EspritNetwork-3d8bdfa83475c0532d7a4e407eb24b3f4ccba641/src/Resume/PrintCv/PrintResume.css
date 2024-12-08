@@ -1,0 +1,235 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.printcvcontainer:hover {
+background-color: #ffffff;
+color: #000000;/*coleur de bio,comp,lang*/
+filter: blur(1px);
+}
+
+/*partie a droite*/
+.printcvcontainer {
+  width: 220mm;
+  height: 296mm;
+  padding: 0; 
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+}
+
+/*partie droite */
+.right-part {
+  padding: 1.7rem;
+  width: 60%; 
+}
+
+.right-part .banner {
+  font-family: 'Open Sans', sans-serif;
+  color: #676769;
+}
+
+/*partie a gauche*/
+.main-section .left-part {
+  width: 40%;
+  height: 100%;
+  padding: 2rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+/*les sous titres*/ 
+.title {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  padding: 0.6rem;
+  color: #523232c7;
+  text-align: center;
+}
+/*Contact*/
+.contact-container {
+  margin-top: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-container .contact-list {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Lato', sans-serif;
+  color: #282827;
+  font-size: 1rem;
+}
+.contact-icon{
+margin-top: 2px;
+font-size: 19px; 
+}
+/*Competences */
+.competence-container {
+  margin-bottom: 2.2rem;
+  font-family: 'Lato', sans-serif;
+}
+
+
+/*Langues*/
+.langues-container .langue{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.6rem;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+/*experiencePro*/
+.pro-container {
+  font-family: 'Lato', sans-serif;
+  
+}
+
+.pro-container .pro .job-date {
+  display: flex;
+  justify-content: space-between;
+  color: #4D4D4F;
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.pro-container .pro .company-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #4D4D4F;
+}
+
+.pro-container .pro .pro-text {
+  color: #737373;
+  font-size: 0.8rem;
+  text-align: justify;
+  line-height: 1rem;
+}
+
+
+
+/*ACADEMIQUES*/
+.acad-container {
+  font-family: 'Lato', sans-serif;
+}
+
+.acad-container .acad:not(:last-child) {
+  margin-bottom: 1.8rem;
+}
+
+.acad-container .acad .job-date {
+  display: flex;
+  justify-content: space-between;
+  color: #4D4D4F;
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.acad-container .acad .company-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #4D4D4F;
+}
+
+.profil {
+  height: 136px;
+  font-size: 12px;
+}
+
+/*image*/
+.picpr-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%; 
+  margin-left: 30px;
+
+}
+.roundedpr-img {
+  width: 100%;
+  border-radius: 100%;
+
+}
+
+.print-resume-container {
+  position: relative;
+}
+
+.print-buttonrp-container-fullsize {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*print button*/
+.print-buttonrp {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+
+
+/*animation icon tele*/
+@keyframes slideInY {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.teleg-icon {
+  animation: slideInY 0.9s ease-in-out infinite; 
+  font-size: 21px;
+}
+
+/*couleur cv template */
+.color-container {
+display: flex;
+align-items: center;
+}
+
+
+.color-label {
+margin-left: 10px;
+font-weight: bold;
+
+}
+
+
+.input-style{
+border: none;
+padding: 1.5rem;
+border-radius: 2rem;
+cursor: pointer;
+
+}
+
+.iconbrush {
+position: absolute;
+transform: translateY(-100%);
+left: 18px; 
+top: 30px;
+
+}

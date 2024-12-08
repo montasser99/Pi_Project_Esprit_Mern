@@ -1,0 +1,65 @@
+
+.rbc-calendar {
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #333; 
+  }
+  
+  .rbc-toolbar {
+    background-color: #f5f5f5; 
+    border-bottom: 1px solid #ccc;
+  }
+  .rbc-toolbar button,
+  .rbc-toolbar .rbc-btn-group button {
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  .rbc-toolbar button:hover,
+  .rbc-toolbar .rbc-btn-group button:hover {
+    background-color: #f5f5f5;
+    border-color: #ccc;
+  }
+  .rbc-toolbar button.rbc-active,
+  .rbc-toolbar .rbc-btn-group button.rbc-active {
+    color: #fff;
+    background-color: #db4437; 
+    border-color: #db4437;
+  }
+  
+  .rbc-row-header {
+    background-color: #eaeaea; 
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .rbc-today {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .rbc-event {
+    background-color: #db4437; 
+    color: #fff;
+    border: 1px solid #ccc;
+  }
+  .rbc-event-content {
+    padding: 5px 10px;
+  }
+  .rbc-event.rbc-event-start,
+  .rbc-event.rbc-event-end {
+    background-color: #444;
+    color: #fff;
+  }
+  .rbc-event-time {
+    font-size: 12px;
+    color: #ccc; 
+  }
+  
+  .rbc-event:hover {
+    background-color: #d33528; 
+  }

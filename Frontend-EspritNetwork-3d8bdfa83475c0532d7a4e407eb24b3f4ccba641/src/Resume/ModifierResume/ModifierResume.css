@@ -1,0 +1,82 @@
+
+.lienupdate {
+  font-weight: bold;
+  color: black; 
+  cursor: pointer; 
+}
+.lienupdate:hover {
+  cursor: pointer; 
+ 
+}
+.lienupdate.active {
+  color: #ff0000; 
+}
+
+/*Titre*/
+.titre label {
+    font-weight: bold;
+  }
+
+  .black-text h2 {
+    color: #000000;
+    margin-top: 100px;
+    margin-right :120px;
+  }
+
+/*BOUTON MODIFIER */
+.btn.btn-formulaire {
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 130px;
+    margin: 2px;
+  }
+
+/* FORMULAIRE */
+.cardformulaire{
+  border-top: 3px solid #cf0000;
+  border-bottom: 3px solid #cf0000;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+  width: 75%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+/*controle de saisie box */ 
+.input-error {
+  border-color: #cf0000;
+  box-shadow: 0 0 7px #cd282880; 
+}
+/*retour bouton */ 
+.btn-retourcv{
+  color: #000000;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+}
+.btn-retourcv:hover {
+  color: #cf0000;
+}
+
+
+@keyframes slideInX {
+  0% {
+    transform: translateX(50%);
+  }
+} 
+
+.retour-icon {
+  animation: slideInX 1.5s ease-in-out infinite;
+  margin-right: 12px; 
+}

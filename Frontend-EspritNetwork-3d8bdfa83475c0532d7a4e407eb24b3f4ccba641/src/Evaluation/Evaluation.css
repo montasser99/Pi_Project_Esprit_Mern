@@ -1,0 +1,267 @@
+
+
+/***************************************************************
+# Button 
+**************************************************************/
+
+/***************************************************************
+# Badge
+**************************************************************/
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+  }
+  
+  .badge-danger {
+    background-color: #dc3545;
+  }
+  /*-----------------------------------------------------------
+   # Test List
+  --------------------------------------------------------------*/
+  .card {
+    border-radius: 0;
+  }
+  .section .n-card  .card::after {
+    content: "";
+     position: static;
+     display: inline;
+     height: 30px;
+     width: 5px;
+     background: #cf0000;
+     bottom: 0;
+     right: calc(50% - 30px);
+  }
+  
+  .section .n-test{
+      text-decoration: none;
+      font-weight: bold;
+  }
+  
+  .section .n-title{
+    color: #cf0000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .section hr {
+    border: 1px solid #cf0000;
+  }
+  .section .card-test h4 {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  /*--------------------------------------------------------------
+  # Quiz
+  --------------------------------------------------------------*/
+  .section .container-quiz{
+  
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+   
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles pour la section de passage du quiz */
+  .quiz-passage {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  .quiz-passage #timer {
+    color: #888;
+    margin-left: 10px;
+  }
+  .quiz-passage h2 {
+    color: #333;
+  }
+  
+  .quiz-passage p {
+    color: #666;
+  }
+  
+  /* Styles pour les boutons de navigation */
+  .navigation-buttons {
+    margin-top: 20px;
+  }
+  
+  .navigation-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #717579;
+    color: #fff;
+  }
+  
+  .navigation-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles pour le pied de page du quiz */
+  .quiz-footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #888;
+  }
+
+  /*--------------------------------------------------------------
+# Filtre Card 
+--------------------------------------------------------------*/
+
+.filter-link:hover {
+	color: "#cf0000";
+}
+.pointerLine {
+  position: relative;
+  color: black;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.pointerLine:hover {
+  color: red;
+}
+
+.pointerLine::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: red;
+  transition: width 0.3s ease;
+}
+/************
+loading
+*************/.iii {
+  max-height: 0px;
+   max-height: 36px;
+
+}
+
+
+/*******
+version 2 step bar *****/
+.stepper-wrapper {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.stepper-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+.stepper-item::before {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #ccc;
+  width: 100%;
+  top: 20px;
+  left: -50%;
+  z-index: 2;
+}
+
+.stepper-item::after {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #ccc;
+  width: 100%;
+  top: 20px;
+  left: 50%;
+  z-index: 2;
+}
+
+.stepper-item .step-counter {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ccc;
+  margin-bottom: 6px;
+}
+
+.stepper-item.active {
+  font-weight: bold;
+}
+
+.stepper-item.completed .step-counter {
+  background-color: #cf0000;
+}
+
+.stepper-item.completed::after {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #cf0000;
+  width: 100%;
+  top: 20px;
+  left: 50%;
+  z-index: 3;
+}
+
+.stepper-item:first-child::before {
+  content: none;
+}
+.stepper-item:last-child::after {
+  content: none;
+}/* Stepper item hover effect */
+.stepper-item:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Stepper item active effect */
+.stepper-item.active:hover {
+  cursor: default;
+  font-weight: bold;
+}
+
+/* Stepper item active effect */
+.stepper-item.active {
+  font-weight: bold;
+}
+
+/****offres*/
+
+/**select style **/
+.col-3.mx-2.black-hover {
+  display: block;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #ccc;
+
+  font-size: 18px;
+}
+/**select style **/
+

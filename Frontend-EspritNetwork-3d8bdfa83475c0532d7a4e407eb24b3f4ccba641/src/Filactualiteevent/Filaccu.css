@@ -1,0 +1,131 @@
+
+  /*right */
+  .gedf-card {
+
+    width: 210px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 32%;
+    left: 1260px; 
+    transform: translateY(-50%); 
+
+
+  }
+
+.title-cardcount {
+  font-size: 26px; 
+  color: #333; 
+  margin-bottom: 10px; 
+  align-items: center ;
+}
+
+
+.coutevenement {
+  font-size: 50px; 
+  font-weight: bold; 
+}
+.title-cardright{
+  font-size: 14px; 
+  font-weight: bold;
+  text-align: center;
+
+}
+/*publication*/
+.gedf-cardd{
+  width: 750px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  background-color: rgb(255, 255, 255);
+  left: 50px; 
+  transform: translateY(-50%); 
+  padding: 20px;
+  margin-left: 430px;
+  margin-top: 250px;
+
+}
+
+
+.card-acculeft{
+  width: 400px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 34%;
+  left: 50px; 
+  transform: translateY(-50%); 
+  padding: 20px;
+
+}
+/*affichage event*/
+.gedf-cardcentre{
+  width: 750px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  background-color: rgb(255, 255, 255);
+  left: 50px; 
+  transform: translateY(-50%); 
+  margin-left: 430px;
+  margin-top: 90px;
+  padding: 20px;
+
+
+}
+
+
+.event-title {
+  color: rgb(172, 41, 41);
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 10px;
+
+}
+.hederfeed {
+  background-color: #f1f0f0; /* Arrière-plan gris */
+  padding-left: 10px;
+
+}
+
+
+.event-description {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.event-location {
+  font-size: 16px;
+  color: rgb(112, 112, 112);
+}
+
+.event-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.event-image {
+  width: 700px; 
+  height: 700px; 
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+  object-fit: cover; 
+}
+
+
+.fedd {
+  margin-top: 270px; 
+}
+
+
+.event-image-no-margin {
+  margin-top: 0;
+}
