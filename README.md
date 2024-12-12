@@ -19,8 +19,8 @@ A web application designed to streamline the management of professional opportun
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo-link.git
-   cd your-repo-folder
+   git clone https://github.com/montasser99/Pi_Project_Esprit_Mern.git
+   cd Pi_Project_Esprit_Mern
 
 # Backend
 cd backend
